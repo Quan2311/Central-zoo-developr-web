@@ -193,7 +193,7 @@ section{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(../images/home.jpg) no-repeat;
+  background: url(home.jpg) no-repeat;
   background-size: cover;
   background-position: top;
 }
@@ -382,7 +382,7 @@ section{
 /* banner */
 
 .banner{
-  background: url(../images/banner.png) no-repeat;
+  background: url(banner.png) no-repeat;
 }
 
 .banner .row{
@@ -422,42 +422,42 @@ section{
 
 /* pricing */
 
-.pricing .box-container{
+.ticket .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
 }
 
-.pricing .box-container .box{
+.ticket .box-container .box{
   background: var(--bg);
   padding: 3rem;
   text-align: center;
   border-radius: 79% 51% 81% 19% / 58% 93% 7% 42%;
 }
 
-.pricing .box-container .box:hover{
+.ticket.box-container .box:hover{
   border-radius: .5rem;
 }
 
-.pricing .box-container .box img{
+.ticket .box-container .box img{
   height: 15.5rem;
   width: 15.5rem;
   margin-bottom: .5rem;
 }
 
-.pricing .box-container .box h3{
+.ticket .box-container .box h3{
   font-size: 2.6rem;
   color: var(--black);
   padding: 1rem 0;
 }
 
-.pricing .box-container .box .price{
+.ticket .box-container .box .price{
   font-size: 2.2rem;
   color: var(--main);
   padding: .5rem 0;
 }
 
-.pricing .box-container .box p{
+.ticket .box-container .box p{
   font-size: 1.5rem;
   color: var(--black);
   padding: .5rem 0;
@@ -560,7 +560,7 @@ map.img-responsive-wrap .img-inner img {
 /* footer */
 
 .footer{
-  background: url(../images/footer.jpg) no-repeat;
+  background: url(footer.jpg) no-repeat;
   background-size: cover;
   padding: 3rem 7%;
 }
